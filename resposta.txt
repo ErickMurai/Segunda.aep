@@ -1,0 +1,16 @@
+1)Explicar o conceito de encapsulamento (métodos e atributos), destacando seu propósito.
+
+Encapsulamento é manter os dados privados que sejam invisivel para o usuario.Para fazer voce deve declarar variaveis e atributos de classe como private.Fornecer métodos publicos de obtenção e configuração para atualizar o valor de uma private.
+Exemplo:
+public class Person{
+private String name;
+
+public String getName(){
+return name;
+
+}
+Ele é importante por ter controle nos atributos e metodos da classe .Os atributos de classe podem ser feitos somente leitura (get) ou somente gravação (set).O programador pode alterar uma parte do codigo sem afetar outras partes e tem maior segurança de dados.
+
+
+2)Explicar como o uso do encapsulamento em conjunto com métodos modificadores (como os setters) podem promover o reuso de código.
+Utilizando o metodos modificadores ,pois voce podera controlar  e facilitando a manutenção do codigo .
